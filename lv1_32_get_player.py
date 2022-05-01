@@ -10,10 +10,10 @@ def solution(participant, completion):
     #     dic[hash(p)] = p
     #     temp += int(hash(p))
 
-    # for i in range(0, len(participant)):
-    #     if participant[i] != completion[i]:
-    #         answer = participant[i]
-    #         break
+    for i in range(0, len(participant)):
+        if participant[i] != completion[i]:
+            answer = participant[i]
+            break
 
     # for p in participant:
     #     if p in completion:
